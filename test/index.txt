@@ -1,0 +1,37 @@
+3.Async and Await:
+* These are the keywords in JavaScript which is used to handle Asynchronous type of data.
+* Async keyword makes the function Asynchronous.
+* Async function return Promise.
+* Await keyword must be inside in Async function
+* Await keyword await only for the promise But it allows other statements or tasks to 
+execute
+* If you want to handle the errors, we use try catch block, where try block handles the 
+resolved data and catch block handles the rejected 
+* Async and await are syntactic sugar for promises.
+
+Aysnc function getdata()
+{
+Try
+{ 
+Let users = await fetch(“api.github.com/users”)
+Users = await users.json()
+Users.map({avatar_url})=>
+{
+Document.body.innerhtml += `<img src = ${avatar_url}>
+}
+}
+Catch (err)
+{
+Clg(err.messge)
+}}
+getdata()
+
+5.In JavaScript, we can achieve the functionality of positional and keyword arguments by using a combination of default parameters, destructuring, and object literals.
+
+11. type of console.log("22"+2) is string.
+
+12.Their are two ways to read json file using javascript,
+
+*Reading a JSON file from a server:When working on the client side, we can use the Fetch API or XMLHttpRequest to read a JSON file from a server.
+
+*Reading a JSON file from the filesystem:When working with Node.js, we can use the fs module to read a JSON file from the filesystem.
